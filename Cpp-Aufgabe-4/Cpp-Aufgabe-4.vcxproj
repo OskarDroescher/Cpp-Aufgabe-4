@@ -146,9 +146,7 @@
     <ClInclude Include="Rechteck.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="aufgabe2.cpp" />
-    <ClCompile Include="aufgabe4.cpp" />
-    <ClCompile Include="aufgabe6.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Koordinaten.cpp" />
     <ClCompile Include="Kreis.cpp" />

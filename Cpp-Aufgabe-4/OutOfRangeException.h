@@ -1,6 +1,5 @@
 #ifndef OUTOFRANGEEXCEPTION_H
 #define OUTOFRANGEEXCEPTION_H
-
 #include <exception>
 #include <string>
 
@@ -16,4 +15,4 @@ class OutOfRangeException
     private:
         std::string m_message;
 };
-#endif /* OUTOFRANGEEXCEPTION_H */
+#endif

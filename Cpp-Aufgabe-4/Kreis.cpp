@@ -1,6 +1,5 @@
 #include "Kreis.h"
 #include "OutOfRangeException.h"
-
 #include <string>
 #include <sstream>
 #include <iomanip>
@@ -19,7 +18,7 @@ float Kreis::getArea() const {
 
 float Kreis::checkRadius(float radius) {
     if (radius <= 0) {
-        throw OutOfRangeException("radius of a circle may not be 0 or less");
+        throw OutOfRangeException("Radius des Kreises ist 0 oder kleiner, dies ist nicht erlaubt.");
     } 
     return radius;
 }

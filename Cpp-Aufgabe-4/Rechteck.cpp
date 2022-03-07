@@ -1,6 +1,5 @@
 #include "Rechteck.h"
 #include "OutOfRangeException.h"
-
 #include <string>
 #include <sstream>
 #include <iomanip>
@@ -18,9 +17,9 @@ float Rechteck::getArea() const {
     return m_width * m_height;
 }
 
-float Rechteck::checkDimension(float dimension) {
+float Rechteck::pruefeDimension(float dimension) {
     if (dimension <= 0) {
-        throw OutOfRangeException("dimension of a rectangle may not be 0 or less");
+        throw OutOfRangeException("Die Groeße des Rechteckes ist 0 oder kleiner, dies ist nicht erlaubt.");
     }
     return dimension;
 }

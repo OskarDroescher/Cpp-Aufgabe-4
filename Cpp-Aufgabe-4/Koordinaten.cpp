@@ -1,5 +1,4 @@
 #include "Koordinaten.h"
-
 #include <string>
 #include <sstream>
 
