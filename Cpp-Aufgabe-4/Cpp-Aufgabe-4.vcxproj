@@ -152,6 +152,9 @@
     <ClCompile Include="Kreis.cpp" />
     <ClCompile Include="Rechteck.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\VererbungPoly.pdf" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

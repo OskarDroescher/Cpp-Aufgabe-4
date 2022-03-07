@@ -48,4 +48,7 @@
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\VererbungPoly.pdf" />
+  </ItemGroup>
 </Project>
