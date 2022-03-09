@@ -156,6 +156,7 @@ int main() {
 	std::cout << "--- Rechteck ---" << std::endl;
 	std::cout << rechteck.toString() << std::endl << std::endl;
 	*/
+
 	//-----------------Aufgabe_4--------------------------
 	/*
 	// Kreis kann weiter erstellt werden
@@ -163,6 +164,7 @@ int main() {
 	// Graph kann einzeln nicht erstellt werden
 	// Graph graph = Graph(5, 20);
 	*/
+
 	//------------------Aufgabe_6-------------------------
 
 	std::vector<std::string> modus{ "Ein Element erstellen", "Alle Elemente anzeigen", "Programm beenden" };
